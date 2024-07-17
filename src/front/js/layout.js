@@ -22,6 +22,7 @@ import { EditContact } from "./pages/editContact.jsx";
 import Signup from "./pages/signUp.jsx";
 import Login from "./pages/signIn.jsx";
 import { Profile } from "./pages/profile.jsx";
+import { Private } from "./component/private.jsx";
 
 //create your first component
 const Layout = () => {
@@ -53,6 +54,7 @@ const Layout = () => {
                         <Route element={<Signup />} path="/signup" />
                         <Route element={<Login />} path="/login" />
                         <Route element={<Profile />} path="/profile/:theid" />
+                        <Route element={<Private />} path="/private" />
 
 
                     </Routes>

@@ -78,7 +78,7 @@ export const Navbar = () => {
 					<button className="nav-link text-warning bg-dark" onClick={handleLogout}>Logout</button>
 				</li>
 				<li className="nav-item">
-					<Link className="nav-link text-warning" to={`/profile/${store.userData.id}`}>Profile</Link>
+					<Link className="nav-link text-warning" to="/private">Profile</Link>
 				</li>
 				</>
 					:
