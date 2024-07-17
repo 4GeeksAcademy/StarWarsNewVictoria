@@ -33,7 +33,7 @@ const Login = () => {
        } 
     actions.loginUser(dataToSend)
     handleReset()
-    navigate('/')
+    navigate('/private')
     };
 
   return (
